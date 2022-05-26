@@ -29,7 +29,19 @@ else if(x<=60){
     console.log("четвертая четверть часа");
 }
 //4
-let start=10, end=50, res=0;
-for(start=10; start<=end; res=start%5==0){
-    console.log(res);
+let start=10, end=50;
+for(start=10; start<=end; start++){
+    if(start%5==0){
+    console.log(start);
 }
+}
+//5
+let lim1=5, lim2=12, result=1;
+for(lim1=5; lim1<=lim2; lim1++){
+    result=result*lim1;
+}
+console.log(result);
+
+
+
+
